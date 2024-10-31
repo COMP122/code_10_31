@@ -22,10 +22,9 @@ public static int glyph2int(int radix) {
       digit = -1;
     }
 
-
     if (digit > (radix - 1)) {
       digit = -1;
     }
 
-     return digit;
+    return digit;
 }
